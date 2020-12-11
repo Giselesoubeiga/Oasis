@@ -27,7 +27,7 @@ export default class Navbar extends Component {
             </button>
           </div>
           <ul
-            className={this.setState.isOpen ? "nav=links show-nav":"nav-links"
+            className={this.state.isOpen ? "nav=links show-nav":"nav-links"
             }
           >
             <li>
