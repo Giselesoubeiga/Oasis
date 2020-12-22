@@ -15,6 +15,10 @@ class RoomProvider extends Component {
 componentDidMount(){
     //this.get Data
     let rooms = this.formatData(items);
+    let futuredRooms = rooms.filter(room => room.feature === true);
+    this.setState({
+        
+    })
   
 }
     // formatting from data.js
