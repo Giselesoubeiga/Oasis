@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter  as Router} from "react-router-dom"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {RoomProvider} from "./Context"
+import {RoomProvider} from "./context"
 
 ReactDOM.render(
   <RoomProvider>
