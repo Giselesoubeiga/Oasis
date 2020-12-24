@@ -14,6 +14,7 @@ export default class FeaturedRooms extends Component {
           return <Room key={room.id} room={room} />;
         });
         return (
+            <React.Fragment>
             <section className="featured-rooms">
                 <Title title="Featured Rooms" />
                 <div className="featured-rooms-center">
@@ -22,6 +23,7 @@ export default class FeaturedRooms extends Component {
                     {loading ? <Loading /> : rooms}
                 </div>
             </section>
+            </React.Fragment>
         );
     }
 }
