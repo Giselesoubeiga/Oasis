@@ -9,9 +9,9 @@ export default class FeaturedRooms extends Component {
     static contextType = RoomContext;
     render() {
         let { loading, featuredRooms: rooms } = this.context;
-        // loop through each featured rooms and return <Room> component with the list of featured rooms
+    
         rooms = rooms.map(room => {
-            return <Room key={room.id} room={room} />;
+          return <Room key={room.id} room={room} />;
         });
         return (
             <section className="featured-rooms">
