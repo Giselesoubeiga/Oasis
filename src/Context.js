@@ -36,10 +36,11 @@ class RoomProvider extends Component {
   }
 
 
-  getRoom =(slug) =>{
-      let tempRooms = [...this.state.rooms];
-      const room = tempRooms.find(room => room.slug=== slug)
-      return room;
+  getRoom = slug => {
+    // destructuring rooms
+    let tempRooms = [...this.state.rooms];
+    const room = tempRooms.find(room => room.slug === slug);
+    return room;
   }
 
   render() {
