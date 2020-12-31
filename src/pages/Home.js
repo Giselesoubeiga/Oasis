@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 import{Link} from "react-router-dom";
 import Services from "../components/Services";
 import FuturedRooms from "../components/FeaturedRooms";
-import Button from "../components/StyledHero";
+
 
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
     </Hero>
     <Services/>
     <FuturedRooms/>
-    <Button>Hello</Button>
+    
     </>
     );
    
