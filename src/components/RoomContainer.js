@@ -2,7 +2,7 @@ import React from 'react'
 import RoomsFilter from "./RoomFilter"
 import RoomsList from "./RoomsList"
 
-export default function RoomsContainer() {
+export default function RoomContainer() {
     return (
         <div>
             Hello from Container
