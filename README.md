@@ -23,3 +23,16 @@ Link :  https://oasis-beach-resort.herokuapp.com
 * Bootstrap
 * React
 * React-Router
+
+
+### Home Page
+
+![Home Page](homepage.png)
+
+### Our Rooms Page
+
+![Our Rooms Page](roomspage.png)
+
+### Single room Page(One example)
+
+![Single Room Page](singleroom.png)
